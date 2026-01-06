@@ -1,7 +1,6 @@
 let nombreMystere = 42;
 let tentative;
 
-
 while (tentative !== nombreMystere) {
   tentative = parseInt(window.prompt("Devinez le nombre entre 0 et 100"));
 
